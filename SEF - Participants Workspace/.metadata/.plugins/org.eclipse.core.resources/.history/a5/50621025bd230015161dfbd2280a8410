@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+
+/**
+ * @author Student
+ *
+ */
+public class SampleClass {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.print ("This is your class");
+	}
+
+}

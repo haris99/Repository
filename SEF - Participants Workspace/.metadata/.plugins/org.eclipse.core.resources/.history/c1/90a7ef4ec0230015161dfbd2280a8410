@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+
+/**
+ * @author Student
+ *
+ */
+public class SampleClass {
+
+	public static int sum (int h){
+		int result = 0;
+		for (int i = 1;i<=h;i++){
+			result+=i*i;
+		}
+		return result;
+	}
+	
+	public static void greet (String Name) {
+		System.out.println ("This is your class " + Name);
+	}
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//String x = "Haralds";
+		//System.out.println ("This is your class " + x);
+		
+		greet("Haralds");
+		System.out.println ("The result is "+sum(4));
+	}
+
+}
